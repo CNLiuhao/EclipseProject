@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.lang3.ObjectUtils.Null;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -21,7 +20,6 @@ import com.liuhao.entity.SampleInfo;
 import com.liuhao.entity.SampleToxinInfo;
 import com.liuhao.service.ICitiesService;
 import com.liuhao.service.ICropSpeciesService;
-import com.liuhao.service.ICropcategoryService;
 import com.liuhao.service.ISampleInfoService;
 import com.liuhao.service.ISampleToxinInfoService;
 
